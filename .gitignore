@@ -1,0 +1,15 @@
+#binary
+*.exe
+*.out
+
+#go
+/vendor/
+
+#env
+.env
+
+#log
+*.log
+
+#vscode
+.vscode/
