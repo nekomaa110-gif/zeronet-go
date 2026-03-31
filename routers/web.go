@@ -5,6 +5,7 @@ import (
 	"zeronet-go/handlers"
 )
 
-func initRoutes() {
+func InitRoutes() {
 	http.HandleFunc("/", handlers.Home)
+	http.HandleFunc("/test", handlers.Test)
 }

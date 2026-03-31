@@ -8,6 +8,6 @@ import (
 
 func main() {
 	routers.InitRoutes()
-	fmt.Println("Server is running on http://localhost:8080")
+	fmt.Println("Server Jalan di :8080")
 	http.ListenAndServe(":8080", nil)
 }
